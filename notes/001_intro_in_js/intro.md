@@ -58,7 +58,30 @@ There are three ways to add javaScript to an HTML file:
   console.log("Hello from script.js!");
   ```
 
-```
+  ## Statements and 'Comments in javascripts
 
+  - **Statements**
+    In JavaScript, a statement is a unit of code that performs an action. Think of them as the instructions you give to the JavaScript engine. Each statement is typically terminated by a semicolon (`;`), although in some cases the semicolon can be optional (more on that later).
+
+  - **Comments**
+    Comments are essential for explaining your code and making it easier to understand. They are ignored by the JavaScript engine. There are two types of comments in JavaScript:
+
+    **Single-line comments:** Start with `//` and comment out the rest of the line.
+
+    **Multi-line comments:**
+    Start with /_ and end with _/. They can span multiple lines.
+
+    ```javascript
+    // This is a single-line comment.
+    let name = "Bob"; // This comment is after the code on the same line.
+    ```
+
+    ```javascript
+    // This is a single-line comment.
+    let name = "Bob"; // This comment is after the code on the same line.
+    ```
+
+```
 # JavaScript
+
 ```
